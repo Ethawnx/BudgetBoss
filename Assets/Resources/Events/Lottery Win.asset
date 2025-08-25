@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d409e0f670f1cf649a6cd1d0f92cab36, type: 3}
+  m_Name: Lottery Win
+  m_EditorClassIdentifier: 
+  minIntelligence: 0
+  minCharisma: 0
+  minPhysicalStrength: 0
+  minMentalStrength: 10
+  minReputaion: 0
+  minFriends: 0
+  minMoney: 100
+  chance: 0.02
+  eventName: Lottery Win
+  description: '"You win the lottery! Luck is on your side."'
+  type: 0
+  fromFriend: 0
+  minFriendshipLevel: 0
+  moneyChange: 90000
+  energyChange: 0
+  timeChange: 0
+  mentalStrengthChange: 10
+  physicalStrengthChange: 0
+  charismaChange: 10
+  intelligenceChange: 0
+  loseFriend: 0
+  gainFriend: 0
+  affectReputation: 0
+  reputationChange: 10000
+  jobOffer: {fileID: 0}

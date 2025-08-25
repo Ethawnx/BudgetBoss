@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e28a964af0aaac4bbb3c13296b03ae8, type: 3}
+  m_Name: Laptop
+  m_EditorClassIdentifier: 
+  Category: 0
+  AssetName: Laptop
+  Icon: {fileID: 21300000, guid: f2bdfdfa63cdb4a25b39f7eaa0cd0c00, type: 3}
+  Description: a great tool to even expand your communications circle
+  RequiredBalanceToUnlock: 500
+  HourlyIncome: 0
+  consumable: 0
+  unlockConditions:
+  - conditionType: 2
+    requiredAsset: {fileID: 0}
+    requiredStat: 1
+    minLevel: 10
+  AssetGO: {fileID: 0}
+  unlockedActions:
+  - {fileID: 11400000, guid: 04b63623fa22552469e121bbe7b1c43c, type: 2}
+  - {fileID: 11400000, guid: 6409ae27a867cb14f9ff40c91bab7aa7, type: 2}
+  unlockedAssets: []
+  IsVisibleByDefault: 0
+  IsUnlockedByDefault: 0

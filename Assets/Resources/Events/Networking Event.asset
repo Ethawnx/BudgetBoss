@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d409e0f670f1cf649a6cd1d0f92cab36, type: 3}
+  m_Name: Networking Event
+  m_EditorClassIdentifier: 
+  minIntelligence: 10
+  minCharisma: 15
+  minPhysicalStrength: 0
+  minMentalStrength: 10
+  minReputaion: 10
+  minFriends: 5
+  minMoney: 200
+  chance: 0.25
+  eventName: Networking Event
+  description: '"You attend a networking event and make valuable connections."'
+  type: 0
+  fromFriend: 0
+  minFriendshipLevel: 0
+  moneyChange: 0
+  energyChange: 0
+  timeChange: 0
+  mentalStrengthChange: 2
+  physicalStrengthChange: 0
+  charismaChange: 2
+  intelligenceChange: 0
+  loseFriend: 0
+  gainFriend: 1
+  affectReputation: 1
+  reputationChange: 500
+  jobOffer: {fileID: 0}

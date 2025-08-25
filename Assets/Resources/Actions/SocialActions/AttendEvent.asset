@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc0db5d4c0106074eb85c671b72f01c0, type: 3}
+  m_Name: AttendEvent
+  m_EditorClassIdentifier: 
+  Category: 3
+  actionName: Attend Event
+  icon: {fileID: 21300000, guid: a3cb1768e29ebc64690057d12593ab5a, type: 3}
+  timeCost: 3
+  energyCost: 30
+  moneyCost: 30
+  statBoosts:
+  - statType: 2
+    minBoost: 1
+    maxBoost: 1
+  resourceBoosts: []
+  socialsRewards:
+  - SocialType: 0
+    minAmount: 1
+    maxAmount: 1
+  IsVisibleByDefault: 1
+  IsUnlockedByDefault: 1
